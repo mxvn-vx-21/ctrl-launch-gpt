@@ -1,0 +1,1 @@
+{"name":"ctrl-monster","private":true,"type":"module","scripts":{"dev":"wrangler pages dev","deploy":"wrangler pages deploy","db:migrate:local":"wrangler d1 migrations apply ctrl --local","db:migrate":"wrangler d1 migrations apply ctrl --remote"},"devDependencies":{"wrangler":"^4.151.1"},"dependencies":{"fflate":"^0.8.3"}}

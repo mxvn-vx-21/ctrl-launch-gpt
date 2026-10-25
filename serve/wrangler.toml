@@ -1,0 +1,16 @@
+name = "ctrl-sites"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+routes = [{ pattern = "*.ctrl.monster/*", zone_name = "ctrl.monster" }]
+
+[vars]
+ROOT_DOMAIN = "ctrl.monster"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "ctrl"
+database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+
+[[r2_buckets]]
+binding = "SITES"
+bucket_name = "ctrl-sites"
